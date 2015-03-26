@@ -8,14 +8,12 @@ header {
 	left: 0;
 	right: 0;
 	height:50px;
-	background-color: white;
 	text-decoration: none;
 }
 .page-header {
 	font-family: 'Grand Hotel', cursive;
 	font-size: 50px;
 	font-weight: 700;
-	color: black;
 	text-decoration: none;
 	padding-left: 50px;
 }
