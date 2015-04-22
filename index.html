@@ -1,84 +1,214 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<title>the Coffee Bar</title>
 
-  <head>
-    <meta charset="UTF-8">
-		<title>Lemongrass</title>
-    <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Grand+Hotel" rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">   
-  </head>
+	<!-- Foundation -->
+	<link rel="stylesheet" href="css/foundation.css" />
 
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,900,800' rel='stylesheet' type='text/css'>
+
+	<!-- links to resources -->
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+</head>
 <body>
 	<header>
-    <div class="container-head">
-      <div class="page-header">
-        <a href="index.html">(lemon)grass</a>
-      </div>
-		  <nav>
-       	<ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="About.html">About Me</a></li>
-          <li><a href="journal.html">Journal</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
-          <li><a href="https://www.google.com/?gws_rd=ssl"><span class="glyphicon glyphicon-search"></span></a></li>
-       	</ul>
-      </nav>
-    </div>
+		
+			<nav class="top-bar" data-topbar role="navigation">
+			  <ul class="title-area">
+			    <li class="name">
+			      <i class="fa fa-coffee"></i></h1>
+			    </li>
+			     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
+			    </li>
+			  </ul>
+
+			  <section class="top-bar-section">
+			    <!-- Right Nav Section -->
+			    <ul class="right">
+			      <li class="active">
+			      	<a href="#story">Our Story</a>
+			      </li>
+
+			      <li class="has-dropdown" >
+			      	<a href="#">Coffee Beans</a>
+			      	<ul class="dropdown">
+			      		<li class="active">
+			      			<a href="#brazil1">Brazil</a>
+			      		</li>
+			      		<li class="active">
+			      			<a href="#vietnam1">Vietnam</a>
+			      		</li>
+			      		<li class="active">
+			      			<a href="#indonesia1">Indonesia</a>
+			      		</li>
+			      
+			      	</ul>
+			      </li>
+			       <li class="active">
+			      	<a href="#contact">Contact Us</a>
+			      </li>
+			    </ul>
+			  </section>
+			</nav>
+	
 	</header>
+	<div class="hero">
 
-  <div class="jumbotron">
-    <div class="container">
-      <h2>culture + food</h2>
-      <p></p>
-    </div>
-  </div>
+		<section class="p2">
+			<a href="#" data-cont="COFFEE"> the Coffee Bar</a>
+		</section>
+	</div>
 
-  <div id="browse">
-    <p>Browse Different Posts</p>
-  </div> 
 
-  <div class="container-imgs">
-      <div class="row">
-        <div class="col-md-offset-2 col-md-4">
-          <div class="index-imgs">
-            <a href="journal.html#section1"><img src="http://i4.photobucket.com/albums/y140/anexiong/lemonginger.jpg" class="img-responsive"></a>
-          </div>
-          <div class="index-imgs">
-            <a href="journal.html#section2"><img src="http://i4.photobucket.com/albums/y140/anexiong/Chedor%20Website/papayasalad.jpg" class="img-responsive"></a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="index-imgs">
-            <a href="journal.html#section3"><img src="http://i4.photobucket.com/albums/y140/anexiong/Chedor%20Website/K53BQ0E9KY.jpg" class="img-responsive"></a>
-          </div>
-          <div class="index-imgs">
-            <a href="journal.html#section4"><img src="http://i4.photobucket.com/albums/y140/anexiong/SW_ZakSuhar.jpg" class="img-responsive"></a>
-          </div>
-        </div>
-    </div>
-  </div>
-  
-  <div id="footer-container">
-    <div id="love">
-      <span>made with love and (lemon)grass</span>
-      <span>♥</span>
-      <span>culture + food </span>
-    </div>
-    <br>
+	<div class="projects-container">
+		<ul>
+			<li class="cd-single-project">
+				<div class="cd-title">
+					<h2>Our story</h2>
+					<i class="fa fa-heart"></i>
+				</div> <!-- .cd-title -->
 
-    <div id="footer-social">
-      <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
-      <a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
-      <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
-      <a href="https://www.google.com/" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a>
-    </div>
-    <span>&copy;(lemon)grass by annie xyooj. all rights reserved. celebrating culture and food. part of me. part of you.</span>
-  </div>
+				<div class="cd-project-info">
+					<nav class="breadcrumbs">
+					  <a href="#home">Home</a>
+					  <a class="current" href="#story">Our Story</a>
+					  <a href="#beans">Coffee Beans</a>
+					  <a href="#">Contact</a>
+					</nav>
+					<a name="story"></a><p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eu, white, cinnamon redeye irish mocha redeye black. Ut, in, decaffeinated, as aroma dripper skinny mocha percolator. Aroma half and half, froth medium sit and so breve cortado decaffeinated est beans. Ut redeye cinnamon, and chicory turkish black coffee doppio body americano.
 
-  
+						Caramelization plunger pot bar percolator, spoon extra, affogato flavour half and half affogato aged. Sit, mazagran half and half a, galão rich frappuccino kopi-luwak coffee. Chicory body viennese cinnamon id lungo spoon. And milk acerbic shop cappuccino, cup arabica blue mountain mocha affogato.
+
+						Plunger pot lungo, coffee coffee caffeine eu filter. Turkish shop, caramelization bar galão to go in saucer. Turkish espresso organic breve extra froth instant. Id wings, coffee, eu sugar café au lait, and bar at variety aftertaste body.
+
+						Cappuccino half and half affogato sugar strong sugar rich. Affogato, dripper coffee caramelization spoon pumpkin spice grinder organic carajillo. Aroma whipped irish est foam eu et strong doppio that grinder. Galão espresso skinny grinder, roast flavour irish half and half foam crema.
+
+						Turkish that, body mazagran sweet sit, siphon cultivar froth seasonal breve. Organic latte single origin mug plunger pot filter caramelization. Sugar turkish mazagran, robust seasonal cup, that coffee cultivar latte aged fair trade. Mocha doppio macchiato cup as flavour, eu kopi-luwak acerbic galão sweet.
+
+						Caffeine rich, cappuccino, sit, grounds caffeine froth and milk acerbic. Cappuccino redeye robust lungo that, sugar kopi-luwak froth crema ristretto. Aromatic, and, steamed id skinny shop cream turkish kopi-luwak. Single origin, so pumpkin spice, coffee, sugar, at, foam, cinnamon cortado carajillo french press filter.
+
+						Whipped, variety cup turkish brewed breve to go. Cultivar crema, aromatic, medium, skinny, blue mountain dark variety crema siphon. That caramelization java, french press acerbic, roast and, kopi-luwak as single shot espresso filter. Instant skinny medium mazagran to go macchiato skinny milk seasonal.
+					</p>
+				</div> <!-- .cd-project-info -->
+			</li>
+
+			<li class="cd-single-project">
+				<div class="cd-title">
+					<h2>Coffee Beans</h2>
+					<i class="fa fa-skyatlas"></i>
+				</div> <!-- .cd-title -->
+
+				<div class="cd-project-info">
+					<nav class="breadcrumbs">
+					  <a href="#home">Home</a>
+					  <a href="#story">Our Story</a>
+					  <a class="current" href="#beans">Coffee Beans</a>
+					  <a href="#contact">Contact</a>
+					</nav>
+					<a name="beans"></a>
+					<p>Coffee varieties are the diverse subspecies derived through selective breeding or natural selection of coffee plants. While there is tremendous variability encountered in both wild and cultivated coffee plants, there are a few varieties and cultivars that are commercially important due to various unique and inherent traits such as disease resistance and fruit yield. These unique traits are what producers use to select breeds when developing crops. Therefore, at a micro level, breed selection is critical to the success of a producer and is one of the key components of cup quality.</p>
+					
+					
+					<div class="row" data-equalizer="foo">
+					  <div class="medium-4 columns" >
+					    <div class="panel" data-equalizer-watch="foo">
+					    <h3>Brazil</h3>
+					    	<p>Coffee production in <a name="brazil1">Brazil</a> is responsible for about a third of all coffee, making Brazil by far the world's largest producer.  Today those Brasils definitely still exist, but due to advancements in sorting and processing, we are seeing intense sweetness in the form of caramel and chocolate, big bodies, and supporting complementary acidity. Well processed naturals bring in a variety of red fruits to the mix to make these coffees really shine. </p>
+					   		<ul>
+				    			<li>Catuai</li>
+					    		<li>Caturra</li>
+					    		<li>Pacas</li>
+					    		<li>Santos<li>
+			    			</ul>
+					    
+					    </div>
+					  </div>
+					  <div class="medium-4 columns">
+					    <div class="callout panel" data-equalizer-watch="foo">
+					      <h3>Vietnam</h3>
+					      <p>Coffee production has been a major source of income for <a name="vietnam1">Vietnam</a> since the early 20th century. First introduced by the French in 1857, the Vietnamese coffee industry developed through the plantation system, becoming a major economic force in the country. Vietnam coffee is really good and offered around the world. The types of coffee beans produced: 
+					      </p>
+					      <ul>
+				    			<li>Arabica</li>
+					    		<li>Robusta</li>
+					    		<li>Catimor</li>
+					    		<li>Chari<li>
+			    			</ul>
+					    </div>
+					  </div>
+					  <div class="medium-4 columns">
+					    <div class="panel" data-equalizer-watch="foo">
+					      <h3>Indonesia</h3>
+					      <p>Indonesia is the fourth largest producer of coffee in the world. Coffee in <a name="indonesia1">Indonesia</a> began with its colonial history, and has played an important part in the growth of the country. Indonesia is located within an ideal geography for coffee plantations. The longitude and latitude of the country means that the island origins are all well suited micro-climates for the growth and production of coffee.</p>
+					      <ul>
+				    			<li>Ethiopian lines</li>
+					    		<li>Typica</li>
+					    		<li>Hibrido de timor</li>
+					    		<li>Caturra cultivars<li>
+			    			</ul>
+					    </div>
+					  </div>
+					</div>
+				</div> <!-- .cd-project-info -->
+			</li>
+
+			<li class="cd-single-project">
+				<div class="cd-title">
+					<h2>Contact Us</h2>
+					<i class="fa fa-envelope"></i>
+				
+				</div> <!-- .cd-title -->
+
+				<div class="cd-project-info">
+					<nav class="breadcrumbs">
+					  <a href="#home">Home</a>
+					  <a href="#story">Our Story</a>
+					  <a href="#beans">Coffee Beans</a>
+					  <a class="current" href="#contact">Contact</a>
+					</nav>
+					<a name="contact"></a>
+					<p>
+						We love to hear from you, our customers. Feel free to send us an email, drop by for a cup of coffee, or provide comments. Don't forget to follow us!</p>
+					<p>the Coffee Bar</p>
+						<p>1234 Street Name</p>
+						<p>City, State, Zipper</P>
+
+					
+					<div id="social">
+						<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
+						<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a>
+						<a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-square fa-4x"></i>
+						<a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram fa-4x"></i></a>
+					</div>
+				</div> <!-- .cd-project-info -->
+			</li>
+
+			
+		</ul>
+		<a href="#0" class="cd-close">Close</a>
+		<a href="#0" class="cd-scroll">Scroll</a>
+	</div> <!-- .project-container -->
+
+	
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.equalizer.js"></script>
+  <!-- Other JS plugins can be included here -->
+
+<script>
+  $(document).foundation();
+</script>
 </body>
-</html>     
+</html>
